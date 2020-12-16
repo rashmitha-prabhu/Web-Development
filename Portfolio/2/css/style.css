@@ -1,0 +1,135 @@
+html{
+    width: 100vw;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    line-height: 1.5;
+    color: #40514E;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #e5faf7;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.bot-cloud{
+    position: absolute;
+    left: 100px;
+    bottom: 330px;
+}
+
+.mount{
+    margin: auto;
+    width: auto;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-weight: 150;
+    font-size: 5.625em;
+    color: #66BFBF;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Red Rose', cursive;
+    font-size: 3 rem;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #66BFBF;
+}
+
+h3{
+    color: #11999E;
+    font-size: 2rem;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    clear: both;
+}
+
+.prog-img{
+    width: 20%;
+    margin: 0 30px 0 0;
+    float: left;
+}
+
+.web-img{
+    width: 20%;
+    margin: 0 0 0 30px;
+    float: right;
+}
+
+hr{
+    border: none;
+    border-top: #EAF6F6 dotted;
+    width: 15%;
+    border-width: 7px;
+}
+
+.btn{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #11999E;
+    color: #ffffff;
+}
+
+.btn:hover, .btn:active{
+    background-color: #66BFBF;
+}
+
+.profile{
+    width: 40%;
+    margin: 5px auto;
+}
+
+.profile > img{
+    margin: 40px auto 0px;
+}
+
+.bottom-container{
+    background-color: #11999E;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bottom-container > a{
+    color: #e5faf7;
+    text-decoration: none;
+    padding: 0 8% 0;
+}
+
+.bottom-container > a:hover{
+    color: #66BFBF;
+    font-size: large;
+}
+
+.bottom-container > p{
+    color: #ffffff;
+}
+
+.contact-me{
+    line-height: 1;
+    width: 40%;
+    margin: 40px auto 20px;
+}
